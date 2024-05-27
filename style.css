@@ -76,3 +76,60 @@ button{
     font-size: 15px;
     font-weight: 600;
 }
+/*////////////////////*/
+.infos{
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 32px;
+}
+.infos h1{
+    padding: 0;
+    margin: 0;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.container{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+}
+.card p{
+    font-size: 20px;
+}
+.box{
+    width: 200px;
+    height: 220px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    display: block;
+}
+/*////////////////////*/
+.quote-container{
+    padding: 0 20%;
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-container p{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-container h2{
+    display: flex;
+    justify-content: flex-end;
+}
