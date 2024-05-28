@@ -67,7 +67,7 @@ a{
     justify-content: center;
     align-items: center;
 }
-button{
+.header-info button{
     padding: 10px 38px;
     color: white;
     background-color: #3882f6;
@@ -132,4 +132,42 @@ button{
 .quote-container h2{
     display: flex;
     justify-content: flex-end;
+}
+/*////////////////////*/
+.cta{
+    height: 300px;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta-title h2, p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.cta-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 48px 150px;
+    justify-content: space-between;
+}
+.cta-button button{
+    padding: 10px 40px;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+}
+/*////////////////////*/
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
